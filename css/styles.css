@@ -1,0 +1,190 @@
+.container-fluid {
+    padding: 0px;
+}
+
+body {
+    padding-top: 70px;
+    background-color: #ADD8E6;
+}
+
+#logo {
+    float: left;
+    margin: 4px 0px;
+}
+
+.navlink {
+    color: #696969;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2em;
+    margin-right: 10px;
+    font-weight: 300;
+    display: inline-block;
+}
+
+.navlink:hover {
+    text-decoration: none;
+    color: #a8a8a8;
+}
+
+.navbar-right {
+    margin-top: 17px;
+}
+
+#head-container {
+    overflow: hidden;
+}
+
+#name-container {
+    position: fixed;
+    height: 200px;
+    z-index: -2;
+    margin-top: 75px;
+    width: 100%;
+}
+
+h1 {
+    color: white;
+    font-size: 4em;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+h2 {
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 10px;
+    font-family: "Open Sans", sans-serif;
+}
+
+h3 {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-size: 2em;
+    left: 55px;
+    position: absolute;
+    top: 75px;
+}
+
+h4 {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    position: absolute;
+    left: 56px;
+    top: 117px;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 5px 20px;
+}
+
+#clouds {
+    position: relative;
+    height: 210px;
+    margin-top: 265px;
+    margin-bottom:0px;
+}
+
+#cloud1 {
+    position: absolute;
+    background:url(clouds/cloud5.png) repeat-x;
+    height: 250px;
+    width: 100%;
+}
+
+#cloud2 {
+    z-index: -4;
+    position: absolute;
+    background:url(clouds/cloud6.png) repeat-x;
+    height: 250px;
+    width: 100%;
+}
+
+#svg-test {
+    width:350px;
+    height:250px;
+    background: url(cloudmiddle.svg) no-repeat;
+    background-size: 280px auto;
+}
+
+.masked-element {
+    margin:15px 20px;
+    width: 300px;
+    height: 199px;
+    position: relative;
+        mask: url(cloudshort3.svg#maskid);
+    mask-image: url(cloudshort2.svg);
+    -webkit-mask-image: url(cloudshort2.svg);
+    -o-mask-image: url(cloudshort2.svg);
+    -moz-mask-image: url(cloudshort2.svg);
+}
+
+.cloudwork:hover h3, .cloudwork:hover h4{
+    color: #bbb;
+}
+
+/*#cloud3 {
+    position: absolute;
+    background:url(clouds/cloud3.png) no-repeat;
+    left: 400px;
+    height: 260px;
+    width: 600px;
+    top: -46px;
+}
+
+#cloud4 {
+    z-index: -4;
+    position: absolute;
+    background:url(clouds/cloud4.png) no-repeat;
+    left: 650px;
+    height: 250px;
+    width: 600px;
+    top: -30px;
+}*/
+
+#backing {
+    height: 270px;
+    margin-top:-5px;
+    position: relative;
+    background: #ADD8E6;
+}
+
+#background-box {
+    background-color: #ADD8E6;
+}
+
+@media(max-width: 565px) {
+    h1 {
+        font-size: 3em;
+    }
+    h2 {
+        font-size: 2em;
+    }
+}
+
+@media(max-width: 400px){
+    .navlink {
+        margin-right: 6px;
+        font-size: 1.1em;
+        margin-top: 8px;
+    }
+    #logo {
+        margin-right: 17px;
+        margin-top: 12px;
+    }
+    #clouds {
+        margin-top: 240px;
+    }
+    
+}
+
+#hi {
+    padding-top: 40px;
+}
